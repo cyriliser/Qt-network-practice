@@ -3,7 +3,7 @@
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
-    sockettest ctest;
-    ctest.connect();
+    sockettest mtest;
+    mtest.test();
     return a.exec();
 }
